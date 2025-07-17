@@ -1,0 +1,373 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+.header{
+    background-image: url('images/developer.png'),url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin-left: 30px;
+    background-color: #FFF8F3;
+}
+/*font family*/
+.font-family{
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;}
+/*nav part*/
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 200px;
+}
+
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+.span-r{
+    color:coral;
+}
+li{
+    list-style: none;
+    
+}
+ul{
+    display:flex;
+    gap:50px;
+}
+li a{
+    color:#474747;
+    font-size: 20px;
+    text-decoration: none;
+
+    
+}
+li a button{
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: coral;
+    border:none;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*banner part*/
+.banner{
+    display:flex;
+    justify-content: space-between;
+}
+.banner-content{
+    margin:0 30px 0 200px;
+}
+.banner-content .h3{
+    font-size: 45px;
+    font-weight: 400;
+    color:#474747;
+}
+.banner-content .h1{
+    font-size: 85px;
+    font-weight: bold;
+    
+}
+.banner-content .p{
+    font-size: 18px;
+    width: 585px;
+    height: 60px;
+    color:#757575;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.banner-content .cv{
+     padding:20px 40px;
+    border-radius: 5px;
+    background-color: coral;
+    border:none;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.banner-content .Contact{
+     padding:20px 40px;
+    border-radius: 5px;
+    border:1px solid coral;
+    color:coral;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+/*About Me part*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+#ab-me{
+    background-color: #FFF8F3;
+    margin-top:130px;
+    padding: 100px 150px;
+    
+}
+.about1{
+    border:1px solid #757575;
+    background-color: white;
+    text-align: center;
+ 
+}
+.about-me{
+    font-size:35px;
+    font-weight: bold;
+}
+.about-des{
+    font-size: 18px;
+    margin-top:10px;
+    color:#757575;
+    padding: 0 5px;
+}
+.item{
+    display:flex;
+    justify-content: space-between;
+    padding : 30px 20px 50px 20px;
+}
+.item-title{
+    font-size: 18px;
+    color:#757575;
+
+}
+.item-info{
+    font-size:20px;
+    font-weight: bold;
+    color:#474747;
+}
+
+/*Skills part*/
+.skill-title{
+    font-size:35px;
+    font-weight: bold;
+    text-align: center;
+    margin-top:65px;
+    margin-bottom: 30px;
+}
+.skill-des{
+    font-size: 18px;
+    color:#757575;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.lang{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:130px;
+}
+.language{
+    width: 266px;
+    height: 407px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+;
+}
+.lang-img{
+    width: 44px;
+    height: 44px;
+    margin:30px 193px 30px 30px;
+}
+.lang-title{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.lang-title, .lang-des{
+    margin:0px 30px 30px 30px;
+}
+.lang-des{
+    font-size: 20px;
+    color:#757575;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+/*Resume part*/
+.resume-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+.resume{
+    display:flex;
+    justify-content: space-between;
+    margin-top:113px;
+    gap:71px;
+}
+.ee{
+    font-size: 30px;
+    font-weight: bold;
+    color:#474747;
+}
+.d{
+    color:#474747;
+}
+.ds{
+    color:#757575;
+}
+
+.degree{
+    margin-top:30px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.degree-info{
+    font-size: 20px;
+    font-weight: 500px;
+    
+}
+.edu-info{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+.sr-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.sr-info{
+    font-size: 20px;
+    font-weight: 500px;
+}
+.sr-des{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.jr-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.jr-info{
+    font-size: 20px;
+    font-weight: 500px;
+}
+.jr-des{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.html-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.html-info{
+    font-size: 20px;
+    font-weight: 500px;
+}
+.html-des{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.cv2{
+    width: 200px;
+    height: 64px;
+    background-color: coral;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    border:none;
+    border-radius: 5px;
+    margin: 50px 477px;
+    cursor: pointer;
+
+}
+/*Contact part*/
+footer{
+    background-color: #FFF8F3;
+    display:flex;
+    margin-top: 113px;
+    gap:117px;
+    padding: 130px 230px;
+}
+
+.first{
+    font-size: 35px;
+    font-weight: bold;
+}
+.second{
+    width: 562px;
+    height: 56px;
+    font-size: 16px;
+    color:#757575;
+    margin-top: 20px;
+}
+.image{
+    margin-top: 30px;
+    
+}
+.fb{
+    margin-right: 24px;
+
+}
+.insta{
+    margin-right: 24px;
+}
+form input[type="text"]{
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    color:#757575;
+    font-size: 16px;
+    padding-left: 30px;
+    
+    border:none;
+    margin-top: 28px;
+}
+form input[type="email"]{
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    color:#757575;
+    font-size: 16px;
+    padding-left: 30px;
+    border:none;
+    margin-top: 24px;
+}
+form textarea{
+    width: 461px;
+    height: 180px;
+    border-radius: 5px;
+    color:#757575;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-top: 18px;
+    border:none;
+    margin-top: 24px;
+}
+input[type="submit"]{
+   width: 150px;
+   height: 64px;
+   background-color: coral;
+   color:white;
+   font-size: 20px;
+   font-weight: bold;
+   border:none;
+    border-radius: 5px;
+    margin-top:42px;
+   cursor: pointer;
+}
